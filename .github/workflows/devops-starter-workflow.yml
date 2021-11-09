@@ -66,7 +66,7 @@ jobs:
 
     # Deploy ARM Template
     - name: Deploy ARM Template
-      uses: azure/CLI@v1
+      uses: azure/CLI@2.29.2
       continue-on-error: false
       with:
         inlineScript: |
